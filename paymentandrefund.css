@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Container for Payments and Refunds */
+  .payments-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    background: linear-gradient(145deg, #1a1a2e, #2e2e54);
+    box-shadow: 0px 4px 20px rgba(0, 200, 255, 0.3);
+    border-radius: 15px;
+  }
+  
+  /* Title Styles */
+  .payments-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #00bcd4;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00bcd4, 0 0 20px rgba(0, 188, 212, 0.5);
+  }
+  
+  /* Section Styles */
+  .payments-section p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: #dcdcdc;
+    padding: 10px;
+    background: rgba(0, 188, 212, 0.1);
+    border-left: 5px solid #00bcd4;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .payments-container {
+      padding: 15px 20px;
+    }
+  
+    .payments-title {
+      font-size: 2rem;
+    }
+  
+    .payments-section p {
+      font-size: 1rem;
+    }
+  }
+  
